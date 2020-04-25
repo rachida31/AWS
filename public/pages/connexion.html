@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Connexion</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="/style/style2.css" />
+  </head>
+  <body>
+    <div id="main">
+      <ul id="navigationMenu">
+        <li>
+          <a class="accueil" href="/">
+            <span>Accueil</span>
+          </a>
+        </li>
+      </ul>
+      <ul id="navigationMenu" class="retour">
+        <li>
+          <a class="jouer" href="/jeu">
+            <span>Page Avant</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <h1>Connexion</h1>
+    <br />
+
+    <form method="post" id="formconn">
+      <label>Pseudo: </label>
+      <input
+        type="text"
+        name="pseudo"
+        class="login"
+        placeholder="Pseudo"
+        required
+      />
+      <br />
+      <label>Mot de passe: </label>
+      <input
+        type="Mot de passe"
+        class="login"
+        name="mdp"
+        placeholder="Mot de passe"
+        required
+      />
+      <br />
+      <span class="check">
+        <input type="checkbox" name="check"/>
+        <a href="#">Mot de passe oublié ?</a>
+      </span>
+      <br />
+      <input type="submit" name="Submit" class="choix" />
+    </form>
+  </body>
+</html>

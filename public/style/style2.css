@@ -1,0 +1,206 @@
+body {
+  background: #141025;
+}
+.image {
+  background-image: url("https://cdn.glitch.com/042d7dae-3d6b-48ff-804c-5cb31600c491%2Fimagetron1.png?v=1584714165253");
+  background-size: cover;
+  /* background: radial-gradient(circle, black, white);*/
+  /* background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)),
+                  url("imagetron1.png");*/
+}
+.pageaide {
+  background: #05ffb0;
+}
+.pageaide h1 {
+  color: #F30B9E;
+  padding: 60px 0 0px 300px;
+}
+form {
+  width: 450px;
+  margin: 35%;
+  padding: 20px 20px 20px 20px;
+  margin-top: 5%;
+  color: white;
+  background: black;
+  box-shadow: 1px 1px 5px #48D1CC, 0 0 1em blue, 0 0 0.4em blue;
+}
+#formconn {
+  color: white;
+  background: black;
+  box-shadow: 1px 1px 5px #48D1CC, 0 0 1em blue, 0 0 0.4em blue;
+}
+.a_propos {
+  padding: 10px 0 0px 20px;
+  margin: 100px;
+  border: 3px solid #48D1CC;
+  background: #808080;
+  box-shadow: 5px 2px 3px red, 0 0 1em blue, 0 0 0.4em blue;
+}
+
+h1 {
+  text-align: center;
+  width: 40%;
+  padding: 60px 0px 0px 500px;
+  margin: 10px;
+  color: #ebebeb;
+  font: bold 90px "Calibri", Arial;
+  text-shadow: 0 0 1em blue, 0 0 0.2em blue;
+}
+label {
+  display: inline-block;
+  float: left;
+  width: 30%;
+  padding-bottom: 5px;
+  padding: 10px 0 0px 0px;
+  margin: 10px;
+  font: bold 19px "Calibri", Arial;
+}
+.login {
+  display: inline-block;
+  float: left;
+  width: 250px;
+  padding: 10px 0px 6px 0px;
+  margin: 10px;
+  border: 1px solid #0d2c52;
+  background-color: #FAEBD7;
+  font-size: 16px;
+}
+
+.login::placeholder{
+  text-align: center;
+}
+.check {
+  padding: 40px 40px 40px 0px;
+  float: left;
+}
+.check a {
+  color: #FFFFFF;
+  font: bold 15px "Calibri", Arial;
+  padding-left: 10px;
+}
+.choix {
+  background-color: #191970;
+  color: white;
+  border: 1px solid #0d2c52;
+  margin: 20px 0 20px 150px;
+  padding: 10px 10px 10px 10px;
+  border: none;
+  cursor: pointer;
+  width: 30%;
+  font: bold 20px "Calibri", Arial;
+  box-shadow: 1px 1px 1px blue, 0 0 1em blue, 0 0 0.4em blue;
+  border: 1px solid transparent;
+}
+#reschoix {
+  margin: 20px 0 20px 40px;
+}
+
+#subchoix {
+  margin: 20px 0 20px 60px;
+}
+
+.choix:hover {
+  background-color: blue;
+  color: #53af57;
+  border: 1px solid #53af57;
+  box-shadow: 1px 1px 1px blue, 0 0 1em blue, 0 0 0.4em blue;
+}
+.check label:hover {
+  color: white;
+  text-shadow: 1px 1px 1px blue, 0 0 1em blue, 0 0 0.4em blue;
+}
+#formconn:hover {
+  color: white;
+  background: black;
+  box-shadow: 1px 1px 5px #48D1CC, 0 0 1em blue, 0 0 0.4em blue;
+}
+#navigationMenu li {
+  list-style: none;
+  height: 39px;
+  width: 40px;
+  float: left;
+}
+.retour li {
+  padding: 0 0 0 120px;
+}
+.pouraide {
+  padding: 0 0 0 120px;
+}
+#navigationMenu span {
+  width: 0;
+  left: 45px;
+  padding: 0;
+  position: absolute;
+  overflow: hidden;
+  /*  forme de text */
+  font-family: "Myriad Pro", Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 0.6px;
+  white-space: nowrap;
+  line-height: 39px;
+
+  /* CSS3 Transition:pour faire un peu comme le texte bouge */
+  -webkit-transition: 0.25s;
+  -moz-transition: 0.25s;
+  transition: 0.25s;
+}
+/* image pour le menu*/
+#navigationMenu a {
+  background: url("https://cdn.glitch.com/042d7dae-3d6b-48ff-804c-5cb31600c491%2Fmenu21.jpg?v=1584714152577")
+    no-repeat;
+  height: 48px;
+  width: 40px;
+  display: block;
+  position: relative;
+}
+/* hover styles de menu pour le faire apparaître*/
+#navigationMenu a:hover span {
+  width: auto;
+  padding: 0 20px;
+  overflow: visible;
+}
+#navigationMenu a:hover {
+  text-decoration: none;
+  /* CSS  box-shadow  pour les photos de menu*/
+  -moz-box-shadow: 0 0 5px #9ddff5;
+  -webkit-box-shadow: 0 0 5px #9ddff5;
+  box-shadow: 0 0 5px #9ddff5;
+}
+
+/* Green Button */
+
+#navigationMenu .accueil {
+  background-position: -140px -239px;
+}
+#navigationMenu .accueil:hover {
+  background-position: -140px -249px;
+}
+#navigationMenu .accueil span {
+  background-color: #af1e83;
+  color: #460f35;
+  text-shadow: 1px 1px 0 #99bf31;
+}
+#navigationMenu .jouer {
+  background-position: -79px -168px;
+}
+#navigationMenu .jouer:hover {
+  background-position: -79px -178px;
+}
+#navigationMenu .jouer span {
+  background-color: #1e8bb4;
+  color: #223a44;
+  text-shadow: 1px 1px 0 #44a8d0;
+}
+
+#navigationMenu .aide {
+  background-position: -79px -239px;
+}
+#navigationMenu .aide:hover {
+  background-position: -79px -248px;
+}
+#navigationMenu .aide span {
+  background-color: #1e8bb4;
+  color: #223a44;
+  text-shadow: 1px 1px 0 #44a8d0;
+}

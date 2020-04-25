@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Inscription</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="./style/style2.css" />
+  </head>
+  <body class="image">
+    <div id="main">
+      <ul id="navigationMenu">
+        <li>
+          <a class="accueil" href="/">
+            <span>Accueil</span>
+          </a>
+        </li>
+      </ul>
+
+      <ul id="navigationMenu" class="retour">
+        <li>
+          <a class="jouer" href="/jeu">
+            <span>Page Avant</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <h1>Inscription</h1>
+    <br />
+
+    <form method="post" id="imagetron">
+      <label>Pseudo :</label>
+      <input
+        type="text"
+        class="login"
+        id="pseudo"
+        name="pseudo"
+        placeholder="Pseudo"
+        required
+      /><br />
+      <label>Email :</label>
+      <input
+        type="text"
+        class="login"
+        id="email"
+        name="email"
+        placeholder="Email"
+        required
+      /><br />
+      <label>Mot de passe :</label>
+      <input
+        type="password"
+        class="login"
+        id="mdp"
+        name="mdp"
+        placeholder="Mot de passe"
+        required
+      /><br />
+
+      <input type="submit" name="Submit" class="choix" id="subchoix" />
+      <input type="reset" name="reset" class="choix" id="reschoix" />
+    </form>
+  </body>
+</html>

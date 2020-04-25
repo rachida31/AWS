@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Page Web</title>
+    <link rel="stylesheet" type="text/css" href="/style/style.css" />
+  </head>
+  <body>
+    <header>
+      <button type="button" id="connec">Connexion</button>
+      <button type="button" id="inscr">Inscription</button>
+    </header>
+    <canvas id="jeu" width="500" height="500"> </canvas>
+    <ul id="joueurs"></ul>
+    <button type="button" id="start">Start</button>
+    <div id="menuConnec">
+      <div id="contenuMenu">
+        <span id="close">&times;</span>
+      </div>
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script>
+      var socket = io.connect("https://baptiste-p-nodejs-1.glitch.me");
+    </script>
+    <script src="/js/client.js" defer></script>
+  </body>
+</html>

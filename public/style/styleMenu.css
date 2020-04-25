@@ -1,0 +1,178 @@
+body {
+  font-family: "Luckiest Guy", cursive;
+  font-size: 46px;
+  background-image: url("https://cdn.glitch.com/042d7dae-3d6b-48ff-804c-5cb31600c491%2Fimagetron3.jpeg?v=1584714162232");
+  background-size: cover;
+}
+.jouer {
+  background-image: url("https://cdn.glitch.com/042d7dae-3d6b-48ff-804c-5cb31600c491%2Ftron4.png?v=1584714159738");
+  background-size: cover;
+}
+
+path {
+  fill: transparent;
+}
+.titre {
+  fill: #FA8602;
+  text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+}
+.titre:hover {
+  fill: #000000;
+  text-shadow: 1px 1px 2px blue, 0 0 1em red, 0 0 0.2em red;
+}
+text {
+  fill: #C249A6;
+  text-shadow: 11px 12px 13px red, 0 0 4em blue, 0 0 0.1em blue;
+}
+text:hover {
+  fill: #06207C;
+  text-shadow: 11px 12px 13px #4FDA0E, 0 0 4em red, 0 0 0.1em red;
+}
+#navigationMenu li {
+  list-style: none;
+  height: 39px;
+  padding: 10px;
+  width: 40px;
+}
+
+/* rendre le menu illisible avec overflow:hidden*/
+#navigationMenu span {
+  width: 0;
+  left: 45px;
+  padding: 0;
+  position: absolute;
+  overflow: hidden;
+  /*  forme de text */
+  font-family: "Myriad Pro", Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 0.6px;
+  white-space: nowrap;
+  line-height: 39px;
+
+  /* CSS3 Transition:pour faire un peu comme le texte bouge */
+  -webkit-transition: 0.25s;
+  -moz-transition: 0.25s;
+  transition: 0.25s;
+}
+/* image pour le menu*/
+#navigationMenu a {
+  background: url("https://cdn.glitch.com/042d7dae-3d6b-48ff-804c-5cb31600c491%2Fmenu21.jpg?v=1584714152577")
+    no-repeat;
+  height: 48px;
+  width: 40px;
+  display: block;
+  position: relative;
+}
+
+/* hover styles de menu pour le faire apparaître*/
+
+#navigationMenu a:hover span {
+  width: auto;
+  padding: 0 20px;
+  overflow: visible;
+}
+#navigationMenu a:hover {
+  text-decoration: none;
+  /* CSS  box-shadow  pour les photos de menu*/
+  -moz-box-shadow: 0 0 5px #9ddff5;
+  -webkit-box-shadow: 0 0 5px #9ddff5;
+  box-shadow: 0 0 5px #9ddff5;
+}
+
+/* Green Button */
+
+#navigationMenu .accueil {
+  background-position: -140px -239px;
+}
+#navigationMenu .accueil:hover {
+  background-position: -140px -249px;
+}
+#navigationMenu .accueil span {
+  background-color: #af1e83;
+  color: #460f35;
+  text-shadow: 1px 1px 0 #99bf31;
+}
+
+#navigationMenu .aide {
+  background-position: -79px -239px;
+}
+#navigationMenu .aide:hover {
+  background-position: -79px -248px;
+}
+#navigationMenu .aide span {
+  background-color: #1e8bb4;
+  color: #223a44;
+  text-shadow: 1px 1px 0 #44a8d0;
+}
+
+#navigationMenu .connexion {
+  background-position: -18px -309px;
+}
+#navigationMenu .connexion:hover {
+  background-position: -18px -320px;
+}
+#navigationMenu .connexion span {
+  background-color: #c86c1f;
+  color: #5a3517;
+  text-shadow: 1px 1px 0 #d28344;
+}
+
+#navigationMenu .inscription {
+  background-position: -140px -27px;
+}
+#navigationMenu .inscription:hover {
+  background-position: -140px -37px;
+}
+#navigationMenu .inscription span {
+  background-color: #c86c1f;
+  color: #5a3517;
+  text-shadow: 1px 1px 0 #d28344;
+}
+
+#navigationMenu .jouer {
+  background-position: -79px -98px;
+}
+#navigationMenu .jouer:hover {
+  background-position: -79px -110px;
+}
+#navigationMenu .jouer span {
+  background-color: #7da315;
+  color: #3d4f0c;
+  text-shadow: 1px 1px 0 #d8b54b;
+}
+
+#navigationMenu .quiter {
+  background-position: -18px -27px;
+} /*pour pouvoir decouper l'image*/
+#navigationMenu .quiter:hover {
+  background-position: -18px -37px;
+}
+#navigationMenu .quiter span {
+  background-color: #FA5248;
+  color: #A90519;
+  text-shadow: 1px 1px 0 #FA0321;
+}
+
+/*faire le menu au milieu de la page */
+
+#main {
+  margin: 50px auto;
+  position: relative;
+  width: 150px;
+}
+
+/*pour les lien hypertext */
+a,
+a:visited,
+a:active {
+  color: #0196e3;
+  text-decoration: none;
+  outline: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+a img {
+  border: none;
+}
